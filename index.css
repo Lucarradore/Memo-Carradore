@@ -6,6 +6,8 @@ body
 
 .linea-divisora {
   border-bottom: 4px solid crimson;
+  border-width: initial;
+  border-spacing: initial;
 }
 
 a {
