@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+
+
+:root {
+  /* bg colors */
+  --background: #02050e;
+  --primary:#1e50ff;
+  --secondary: #272d37;
+  --btn-bg: #050d26;
+  --bg-azul-10: #e9eeff;
+  --bg-white: #fff;
+  --bg-electric: #f0fbff;
+  --nav-bg: #0f1525;
+
+  /* text colors */
+
+  --text-gray: #adb9c7;
+  --text-white: #f3f4f6;
+
+  /* decoration */
+
+  --fire: #ff6d00;
+  --electric: #64d3ff;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "poppins", sans-serif;
+  
+}
+
+/* Header */
+
+header {
+  background-color: var(--secondary);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  padding: 0px 30px;
+  position: sticky
+
+}
+
+body {
+    background-color: black;
+}
+
+a {
+    color: white;
+}
+
+p {
+    color: crimson;
+    font-family: fantasy;
+    text-align: center;
+}
+
+
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+  h3 {
+    text-align: center;
+    font-family: fantasy;
+    color: crimson;
+    font-weight: 200;
+    font-size: small;
+    
+  }
+  img {
+    text-align: center;
+    display: flex;
+    justify-content: baseline;
+    margin: auto;
+    image-resolution: 80px;
+    width: 90%;
+    height: auto;
+
+  }
+
+
+  main{
+    background-color: black;
+    color:var(--text-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #memo {
+    margin-top: 65px;
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.memo-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.memo-info h1 {
+    font-size: 48px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    color: crimson;
+    text-align: center;
+}
+
+.memo-info p {
+    font-size: 14px;
+    width: 80%;
+    color: var(--text-gray);
+}
+
+.memo-info a {
+    color: var(--text-white);
+    background-color: crimson;
+    width: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+.hero-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary);
+  padding: 80px;
+  border-radius: 15px;
+  justify-content: center;
+  gap: 50px;
+  width:60%
+}
+
+.hero-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contenedor {
+  ...
+  position: relative;
+}
+
+.hero-card-info-img:first-child {
+  width: 50px;
+  height: 50px;
+  /* centrar vertical y horizontalmente */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+}
+  
+
+.navbar,
+.navbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    gap: 150px;
+}
+
+.navbar-list {
+  gap:30px;
+}
+
+.navbar-list a {
+  color: var(--text-gray);
+}
+
+.oficialClase{
+  justify-content: baseline;
+}
